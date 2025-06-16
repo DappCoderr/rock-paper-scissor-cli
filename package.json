@@ -1,0 +1,25 @@
+{
+  "name": "@dappcoderr/rps-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "rps-game": "bin/index.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
